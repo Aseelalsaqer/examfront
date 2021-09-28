@@ -16,7 +16,7 @@ class FavFruotModal extends Component {
               <Form.Control
                 type="text"
                 name="name"
-                defaultValue={this.props.item.name}
+                defaultValue={this.props.name}
               />
               <Form.Text className="text-muted"></Form.Text>
             </Form.Group>
@@ -26,14 +26,14 @@ class FavFruotModal extends Component {
               <Form.Control
                 type="text"
                 name="image"
-                defaultValue={this.props.item.image}
+                defaultValue={this.props.image}
               />
             </Form.Group>
             <Form.Group className="mb-3" controlId="formBasicCheckbox">
               <Form.Check
                 type="text"
                 name="price"
-                defaultValue={this.props.item.price}
+                defaultValue={this.props.price}
               />
             </Form.Group>
 
